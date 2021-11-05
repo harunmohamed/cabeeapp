@@ -77,7 +77,8 @@ const RideOptionsCard = () => {
                                 currency: 'TRY'
                             }).format(
                                 (Math.round(travelTimeInformation?.duration.value * 0.54) + 
-                                Math.round(travelTimeInformation?.distance.value * 3.44)) / 1000
+                                Math.round(travelTimeInformation?.distance.value * 3.44)) * multiplier
+                                / 1000
                             )}
 
                         </Text>
