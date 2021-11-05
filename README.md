@@ -15,7 +15,7 @@
     ·
     <a href="https://bambi.app/m/harun">Request Feature</a>
   </p>
-  <img  src="https://imgur.com/AZKs0wQ" alt="CABEE UI KIT">
+  <img src="https://imgur.com/AZKs0wQ.png" alt="CABEE UI KIT">
 </p>
 
 
