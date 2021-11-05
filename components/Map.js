@@ -45,7 +45,7 @@ const Map = () => {
         <MapView
             ref={mapRef} 
             style={tw`flex-1`}
-            mapType="mutedStandard"
+            //mapType="mutedStandard"
             initialRegion={{
                 latitude: origin.location.lat,
                 longitude: origin.location.lng,
@@ -58,7 +58,7 @@ const Map = () => {
                     origin={origin.description}
                     destination={destination.description}
                     apikey={GOOGLE_MAPS_APIKEY}
-                    strokeWidth={3}
+                    strokeWidth={4}
                     strokeColor="black"
                 />
             )}
